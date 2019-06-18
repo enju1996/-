@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.project">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!--블루투스 퍼미션-->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 스플래시 액티비티 -->
+        <activity
+            android:name="com.example.user.project.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.user.project.MainActivity"
+            android:label="수화 번역기" >
+        </activity>
+
+
+        <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-명시적 액티비티ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+        <activity android:name="com.example.user.project.InitBlowData"/>
+
+        <activity android:name="com.example.user.project.InitSpreedData"/>
+
+        <activity android:name="com.example.user.project.InputDataBlowActivity"/>
+
+        <activity android:name="com.example.user.project.DeviceListActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"/>
+
+        <activity android:name="com.example.user.project.InputDataSpreedActivity"/>
+
+        <activity android:name="com.example.user.project.CheckInputDataActivity"/>
+
+        <activity android:name="com.example.user.project.InputDataActivity"/>
+
+        <activity android:name="com.example.user.project.WriteResultActivity" />
+
+        <activity android:name="com.example.user.project.DropDataActivity"/>
+
+        <activity android:name="com.example.user.project.Game"/>
+
+        <activity android:name="com.example.user.project.GameClearActivity" />
+
+
+    </application>
+
+
+</manifest>
