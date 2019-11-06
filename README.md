@@ -109,5 +109,4 @@ WriteResultActivity : 변역 결과를 출력
 이미지 클릭 시 유투브로 이동합니다.
 
 
-[![Video Label](http://img.youtube.com/vi/jUY1qsw2JzM/0.jpg])](https://www.youtube.com/watch?v=jUY1qsw2JzM?t=0s)
-
+[![Video Label](http://img.youtube.com/vi/jUY1qsw2JzM/0.jpg)](https://www.youtube.com/watch?v=jUY1qsw2JzM)
