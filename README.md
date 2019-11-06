@@ -101,6 +101,6 @@ WriteResultActivity : 변역 결과를 출력
 
 3. 이 문제점을 해결하기 위해서 압력센서와 초음파센서 등의 추가 장착이나 임의의 손동작을 만들어 대체하는 등의 추가적인 장착이 필요합니다.
 
-[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://www.youtube.com/watch?v=jUY1qsw2JzM&t=9s)
+[![Video Label](https://www.youtube.com/watch?v=jUY1qsw2JzM&t=9s)](https://www.youtube.com/watch?v=jUY1qsw2JzM&t=9s)
 
 
