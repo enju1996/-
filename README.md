@@ -101,6 +101,5 @@ WriteResultActivity : 변역 결과를 출력
 
 3. 이 문제점을 해결하기 위해서 압력센서와 초음파센서 등의 추가 장착이나 임의의 손동작을 만들어 대체하는 등의 추가적인 장착이 필요합니다.
 
-[![Video Label](http://img.youtube.com/vi/jUY1qsw2JzM/0.jpg)](https://www.youtube.com/watch?v=jUY1qsw2JzM?t=0s) Video Label
+[![Video Label](http://i.imgur.com/jUY1qsw2JzM.png)](https://www.youtube.com/watch?v=jUY1qsw2JzM?t=0s) Video Label
 
-출처: https://nonamedeveloper.tistory.com/entry/마크다운-문서에-유튜브-링크-멋지게-추가하기 [noname developer]
